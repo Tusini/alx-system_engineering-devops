@@ -1,2 +1,2 @@
 #!/bim/bash
-find . -type d -not -name '.'|wc -l
+find . -mindebth 1 -type d | wc -l
